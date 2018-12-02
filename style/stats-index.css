@@ -1,0 +1,41 @@
+.stats-small table {
+	  border-collapse: collapse;
+    border-spacing: 0;
+	width:100%;
+	border-left:1px solid #8E8E8E;
+	border-right:1px solid #8E8E8E;
+	border-top:1px solid #8E8E8E;
+	border-bottom:1px solid #8E8E8E;
+}
+
+.stats-small td {
+	text-align: center;
+	padding:10px 0px 10px 0px;
+	
+}
+.stats-small th {
+	padding:5px 0px 5px 0px;
+	border:0px solid #000;
+}
+.stats-small td  img {
+	width:30px;
+	height:30px;
+	border-radius:100%;
+	padding:0;
+	margin:0;
+	margin-left:5px;
+}
+.pic {
+	width:50px;
+}
+
+.dominating {
+	color:#fff;
+	background-color:#09E400;
+}
+
+.secondpl{
+	color:#fff;
+	background-color:#D4D300;
+}
+
