@@ -1,0 +1,42 @@
+ <h1>TOP PLAYERS (MJA) </h1>
+			  <div class="stats-small">
+				<table>
+					<tr>
+						<th colspan="2">PLAYER</th>
+					<th></th>
+					<th>POINTS</th>
+						
+					<th>RANK</th>
+					<th>BEST PICK</th></tr>
+					<tr>
+						<td class="pic dominating"><img src="images/header.jpg"></td>
+						<td class="dominating" colspan="2">Dont Cry</td>
+						<td class="dominating">3300</td>
+						<td class="dominating">Mythic x2</td>
+					<td class="dominating">Fanny</td>
+						
+						</tr>
+						<tr>
+						<td class="pic secondpl"><img src="images/header.jpg"></td>
+						<td class="secondpl" colspan="2">CANGCUNG</td>
+						<td class="secondpl">3130</td>
+						<td class="secondpl">Epic V</td>
+					<td class="secondpl">Layla?</td>
+						
+						</tr>
+					<tr>
+						<td class="pic secondpl"><img src="images/header.jpg"></td>
+						<td class="secondpl" colspan="2">sohowcoconut</td>
+						<td class="secondpl">3130</td>
+						<td class="secondpl">Epic V</td>
+					<td class="secondpl">Layla?</td>
+						
+				  </tr>
+					<tr>
+						<td class="pic secondpl"><img src="images/header.jpg"></td>
+						<td class="secondpl" colspan="2">sohowcoconut</td>
+						<td class="secondpl">3130</td>
+						<td class="secondpl">Epic V</td>
+					<td class="secondpl">Layla?</td>
+						
+			    </tr></table>

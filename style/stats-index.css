@@ -1,20 +1,20 @@
 .stats-small table {
+
 	  border-collapse: collapse;
     border-spacing: 0;
 	width:100%;
-	border-left:1px solid #8E8E8E;
-	border-right:1px solid #8E8E8E;
-	border-top:1px solid #8E8E8E;
-	border-bottom:1px solid #8E8E8E;
+	height:100%;
 }
 
 .stats-small td {
-	text-align: center;
-	padding:10px 0px 10px 0px;
+
+	padding:10px 0px 10px 10px;
 	
 }
 .stats-small th {
-	padding:5px 0px 5px 0px;
+	font-size:25px;
+	text-align:left;
+	padding:10px 0px 10px 15px;
 	border:0px solid #000;
 }
 .stats-small td  img {

@@ -39,7 +39,18 @@ nav {
 	top:0;
 	right:0;
 }
+.article-short img {
+	transition:.2s ease-in-out;
+	
+}
+
+
+.article-short img:hover {
+	    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition:.2s ease-in-out;
+}
 header {
+	    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	top:0;
 	background-color:#E9E9E9;
 	height:50px;
@@ -47,24 +58,46 @@ header {
 	position:fixed;
 	z-index:99;
 }
-.col-1 {
+#eight-head {
+	background-color:#E9E9E9;
+	width:25%;
+	OVERFLOW-Y:SCROLL;
+	  
+right:0;
+	position: absolute;
+height:100vh;
+}
+#seven-head {
+	float:left;
+	width:75%;
 	height:100vh;
-	width:100%;
-	z-index:1;
-	
-	background-image:url(../images/layla.jpg);
+	background-image:url("../images/layla.jpg");
 	background-size:cover;
 	background-repeat: no-repeat;
+}
+.col-1 {
+	    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	height:100vh;
+	width:100%;
+	
+	
+
 	
 }
 
 .description {
-	padding-top:20vh;
+	padding-top:25vh;
 	color:#fff;
-		text-align:center;
+		
 }
 
+#see-all {
+padding-top:30px;
+text-align:center;
+padding-bottom:30px;
+}
 .button {
+	
 	font-weight: bold;
 	padding:7px 20px ;
 	border-radius:35px;
@@ -78,7 +111,7 @@ header {
 }
 .description h1 {
 
-	font-size:6vw;
+	font-size:70px;
 	margin:0;
 }
 .description p {
@@ -97,6 +130,11 @@ header {
 }
 #range-1, #range-2 {
 	float:left;
-	width:48%;
+	width:32%;
 	padding:5px;
+}
+
+#news-tag {
+	font-size:50px;
+	margin:0;
 }
