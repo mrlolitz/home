@@ -1,26 +1,61 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type ="text/css" href="style/index.css">
-		<link rel="stylesheet" type ="text/css" href="style/stats-index.css">
+	<link rel="stylesheet" type ="text/css" href="style/stats-index.css">
 	<meta charset="utf-8">
 	<title>Web Document</title>
 </head>
 
-<body>
+<body id="htmel">
+	
+	<script>
+function myFunction(x) {
+		 var element = document.getElementById("page");
+	 var elementX = document.getElementById("htmel");
+    element.classList.toggle("tofu");
+	   elementX.classList.toggle("freeze");
+    x.classList.toggle("change");
 
 
+
+}
+</script>
+	
+	
+	
+	
+	
+	
+	
+		<div class="container" onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
 	<header> 
 	  <h1>LOLITZ</h1>
+
 	  <nav>
 		<a href="">ABOUT</a>
 		<a href="">DOWNLOADS</a>
 		<a href="">TOP</a>
 		<a href="">HOME</a>
 		</nav>
+		
 	</header>
-	
+	<div class="nav-mobile" id="page">
+
+		<ul>
+		<a href=""><li>HOME</li></a>
+		<a href=""><li>TOP</li></a>
+		<a href=""><li>DOWNLOADS</li></a>
+		<a href=""><li>ABOUT</li></a>
+
+			</ul>
+	</div>
 	<section class="col-1">
 		<div id="seven-head">
 		<div class="res-margin">
@@ -91,10 +126,10 @@
 			  <h1>MPL-PH SEASON 2 WEEK 5 RANKING</h1>
 			  <p>Here is this week's MPL-PH Season 2 regular season rankings! Next week will be the final week of the regular season so be sure to tune in!
 				
-			<br><BR>-Facebook (Mobile Legends: Bang Bang)</p>
+			<br><br>-Facebook (Mobile Legends: Bang Bang)</p>
 			  </div>
 				</div>
-			<div id="range-2">
+			<div id="range-3">
 			 
 			<div class="article-short">
 			  <img src="images/mlgang.jpg">
@@ -104,10 +139,12 @@
 			  </div>
 				</div>
 			</div>
-			</div>
+
 		
 			
 </section>
 	
+<section class="col-3">
+	</section>
 </body>
 </html>
