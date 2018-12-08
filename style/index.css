@@ -11,10 +11,16 @@
 
 
 body {
+	padding:0;
+	background-color:#8F8F8F;
 	font-family:"Segoe UI",sans-serif;
 	margin:0;
-
+	color:#fff;
 	padding:0;
+}
+
+.navigation-others a {
+	margin-left:10px;
 }
 .article-short h1 {
 	margin:0;
@@ -24,10 +30,12 @@ body {
 }
 
 header h1 {
+	position:fixed;
+	width:100%;
+	top:7px;
+	padding-left:20px;
 	margin:0;
-	padding-top:5px;
-	padding-left:15px;
-	padding-right:15px;
+	
 
 }
 a {
@@ -46,13 +54,13 @@ header a {
 
 header a:hover {
 	transition:.2s ease-in-out;
-	border-bottom:1px solid #2790FF;
+	
 	background-color:#A7A7A7;
 }
-nav {
+.navigation-desktop {
 	position:fixed;
 	top:0;
-	right:0;
+	left:140px;
 }
 .article-short img {
 	transition:.2s ease-in-out;
@@ -69,6 +77,11 @@ nav {
     transform: rotate(-46deg) translate(-9px, 6px);
 }
 
+.navigation-others {
+	right:15px;
+	position: fixed;
+	padding-top:10px;
+}
 .change nav {
 	display:block;
 		
@@ -101,10 +114,11 @@ nav {
 
 
 header {
-	color:#fff;
+
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	top:0;
-	background-color:#2391EC;
+	background-color:#454545;
+	color:#F5F5F5;
 	height:60px;
 	width:100%;
 	position:fixed;
@@ -120,8 +134,8 @@ right:0;
 height:100vh;
 }
 #seven-head {
-	float:left;
-	width:75%;
+	text-align: center;
+	width:100%;
 	height:100vh;
 	background-image:url("../images/layla.jpg");
 	background-size:cover;
@@ -138,7 +152,7 @@ height:100vh;
 }
 
 .description {
-	padding-top:20vh;
+	padding-top:30vh;
 	color:#fff;
 		
 }
@@ -165,7 +179,7 @@ height:100vh;
 }
 
 .article-short h1 {
-	font-style: italic;
+	
 }
 .nav-mobile {
 	
@@ -176,7 +190,7 @@ height:100vh;
 	top:0;
 	right:0;
 	left:100%;
-	background-color:#fff;
+	background-color:#454545;
 	z-index:45;
 transition:.5s ease-in-out;
 }
@@ -233,12 +247,13 @@ padding-bottom:30px;
 #news-tag {
 	font-size:40px;
 	margin:0;
-	font-style: italic;
+	text-align:center;
 
 }
 
 
 .article-short {
+	background-color:#3D3D3D;
 	padding:15px;
 	height:400px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -248,6 +263,9 @@ padding-bottom:30px;
 	left:0;
 		transition:.5s ease-in-out;
 }
+	.description {
+		padding-top:20vh;
+	}
 	.freeze {
 		overflow-y: hidden;
 	}
@@ -272,6 +290,7 @@ padding-bottom:30px;
 	}
 	header h1 {
 			text-align:center;
+		padding:0;
 	}
 	.description h1 {
 		font-size:50px;
